@@ -1,0 +1,65 @@
+body {
+  background: #e5e7eb;
+}
+
+.pwd-container {
+  background-color: #f9fafb;
+  width: 70%;
+}
+
+.container {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.pwd-length {
+  padding: 2px;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.password {
+  padding: 6px;
+  border: none !important;
+  outline: none;
+  width: 250px;
+  font-size: 19px;
+  font-weight: 620;
+  background-color: #e5e7eb;
+  width: 100%;
+  text-align: center;
+}
+
+.password::placeholder {
+  color: black;
+}
+
+#copyBtn {
+  background-color: #004566;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.gen-pass {
+  width: 100%;
+  background-color: #004566;
+  padding: 6px;
+  border: none !important;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  select {
+    width: 45px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  span {
+    display: none;
+  }
+}
